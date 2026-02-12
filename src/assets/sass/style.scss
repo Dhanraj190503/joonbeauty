@@ -92,7 +92,7 @@ header {
     }
 
     .sub-category {
-        padding: 8px;
+        padding: 5px;
         background-color: #ebf3ff;
         display: flex;
         justify-content: center;
@@ -105,6 +105,25 @@ header {
         .nav-link {
             color: $black;
             font-size: 14px;
+            position: relative;
+            
+            &::before{
+                content: '';
+                width:  0%;
+                height: 3.5px;
+                position: absolute;
+                bottom: 0;
+                left: 50%;
+                transform: translateX(-50%);
+                background: linear-gradient(45deg, #a8cbee 25%, #fdd7f0 75%);
+                transition: 0.4s;
+            }
+
+            &:hover{
+                &::before{
+                width:  50%;
+                }
+            }
         }
 
         .dropdown-item {
@@ -117,6 +136,7 @@ header {
 footer {
     padding-block: 40px;
     background-color: #946464;
+    position: relative;
 
     p {
         color: $white;

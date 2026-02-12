@@ -12,6 +12,7 @@
   "dependencies": {
     "@fancyapps/ui": "^6.1.7",
     "@splidejs/splide": "^4.1.4",
+    "@tanstack/react-query": "^5.90.20",
     "aos": "^2.3.4",
     "bootstrap": "^5.3.8",
     "react": "^19.2.0",

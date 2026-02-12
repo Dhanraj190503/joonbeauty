@@ -12,6 +12,8 @@ import InputGroup from 'react-bootstrap/InputGroup';
 const Footer = () => {
     return (
         <footer>
+
+            
             <Container>
                 <Row>
                     <Col lg={6}>
@@ -21,8 +23,6 @@ const Footer = () => {
                             through thoughtfully crafted skincare and makeup products. Our formulations blend quality
                             ingredients with modern beauty science to deliver effective, safe, and elegant solutions for everyday beauty needs.
                         </p>
-
-
 
                     </Col>
                     <Col lg={6} className='pb-4'>
