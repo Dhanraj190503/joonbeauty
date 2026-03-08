@@ -160,7 +160,7 @@ const Checkout = () => {
                                     </div>
                                     <div className='payment-wrapper'>
                                         <p>
-                                            Pay on receiving your order at your doorstep.
+                                            Pay on receiving your order at your doorstep
                                         </p>
 
                                         <div className="payment-option">

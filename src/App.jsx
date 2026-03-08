@@ -1,4 +1,5 @@
 import { useState } from 'react'
+import React from "react";
 import './assets/sass/style.scss'
 import Header from './components/partial/Header'
 import { Route, Routes } from 'react-router-dom'
