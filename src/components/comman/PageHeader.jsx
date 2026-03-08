@@ -1,4 +1,5 @@
 import React from 'react';
+import { CgPlayButton } from "react-icons/cg";
 
 const PageHeader = ({ title, breadcrumb = [], paragraph }) => {
   return (
@@ -19,7 +20,7 @@ const PageHeader = ({ title, breadcrumb = [], paragraph }) => {
                   <span className="current">{item.subPage}</span>
                 )}
 
-                {!isLast && ' / '}
+                {!isLast && <CgPlayButton />}
               </span>
             );
           })}
