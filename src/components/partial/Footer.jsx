@@ -13,11 +13,16 @@ const Footer = () => {
     return (
         <footer>
 
+            <CdnImage 
+            src='/media/common/footer-bg.png' 
+            ImageClass='w-100 h-100 object-fit-cover' 
+            className='footer-bg' />
+
             
             <Container>
                 <Row>
                     <Col lg={6}>
-                        <CdnImage src='public/media/common/logo.svg' ImageClass='w-100 h-100 object-fit-cover' className='footer-logo' />
+                        <CdnImage src='/media/common/logo.svg' ImageClass='w-100 h-100 object-fit-cover' className='footer-logo' />
                         <p>
                             Joon Beauty is a premium cosmetic brand dedicated to enhancing natural beauty
                             through thoughtfully crafted skincare and makeup products. Our formulations blend quality
@@ -44,7 +49,7 @@ const Footer = () => {
                     </Col>
                 </Row>
 
-                <Row className='pb-3'>
+                <Row className='pb-3 pt-lg-4'>
                     <Col lg={3}>
                         <div className='footer-links'>
                             <h5>Quick Help</h5>
@@ -75,7 +80,7 @@ const Footer = () => {
                         <div className='footer-links'>
                             <h5>SignUp for our newsletter!</h5>
 
-                            <p>
+                            <p className='pb-3'>
                                 Stay updated with our latest news, product launches, exclusive offers, and beauty tips—delivered straight to your inbox.
                             </p>
 
