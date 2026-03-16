@@ -1,4 +1,4 @@
-import PageHeader from "../components/common/PageHeader";
+import Heading from "../components/common/Heading";
 import CTA from "../components/common/CTA";
 import { Col, Container, Row } from "react-bootstrap";
 import Heading from "../components/common/Heading";
@@ -49,7 +49,7 @@ const OurProjectsPage = ({pageName}) => {
   return (
     <>
       <SEO pageName={pageName} />
-      <PageHeader
+      <Heading
         title="Our Projects"
         image="/media/images/common/header-banner.jpg"
         description="Explore our diverse portfolio of wind-solar hybrid energy projects across India."
