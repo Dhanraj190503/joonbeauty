@@ -13,12 +13,12 @@ const Footer = () => {
     return (
         <footer>
 
-            <CdnImage
-                src='/media/common/footer-bg.png'
-                ImageClass='w-100 h-100 object-fit-cover'
-                className='footer-bg' />
+            <CdnImage 
+            src='/media/common/footer-bg.png' 
+            ImageClass='w-100 h-100 object-fit-cover' 
+            className='footer-bg' />
 
-
+            
             <Container>
                 <Row>
                     <Col lg={6}>
@@ -103,28 +103,16 @@ const Footer = () => {
 
                 <div className="footer-copyright">
 
-                    <p className='d-flex align-items-center'>© 2026 JoonBeauty. All rights reserved. Designed with care.</p>
+                    <p>© 2026 JoonBeauty. All rights reserved. Designed with care.</p>
 
-                    <p className='d-flex align-items-center'>
+                    <p className='d-flex align-items-center'> 
                         <span className='d-flex justify-content-center'>
-                            <svg width="20px" height="20px" viewBox="0 0 48 48" version="1" xmlns="http://www.w3.org/2000/svg" enable-background="new 0 0 48 48">
-                                <path d="M34,9c-4.2,0-7.9,2.1-10,5.4C21.9,11.1,18.2,9,14,9C7.4,9,2,14.4,2,21c0,11.9,22,24,22,24s22-12,22-24 C46,14.4,40.6,9,34,9z" />
-                            </svg>
+                       <svg width="20px" height="20px" viewBox="0 0 48 48" version="1" xmlns="http://www.w3.org/2000/svg" enable-background="new 0 0 48 48">
+                        <path d="M34,9c-4.2,0-7.9,2.1-10,5.4C21.9,11.1,18.2,9,14,9C7.4,9,2,14.4,2,21c0,11.9,22,24,22,24s22-12,22-24 C46,14.4,40.6,9,34,9z" />
+                        </svg>  
                         </span>
-
+                        
                         Made in India</p>
-
-                    <div className="d-flex gap-1">
-                        <div className="payment-option">
-                            <CdnImage className='w-100 h-100' ImageClass='w-100 h-100 object-fit-contain' src='/media/common/visa.webp' />
-                        </div>
-                        <div className="payment-option">
-                            <CdnImage className='w-100 h-100' ImageClass='w-100 h-100 object-fit-contain' src='/media/common/mastercard.webp' />
-                        </div>
-                        <div className="payment-option">
-                            <CdnImage className='w-100 h-100' ImageClass='w-100 h-100 object-fit-contain' src='/media/common/gpay.png' />
-                        </div>
-                    </div>
 
                 </div>
 

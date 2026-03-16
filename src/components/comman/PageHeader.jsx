@@ -1,12 +1,12 @@
-import React from "react";
+import React from 'react';
 import { CgPlayButton } from "react-icons/cg";
-import { Link } from "react-router-dom";
 
-const Heading = ({ title, breadcrumb = [], paragraph }) => {
+const PageHeader = ({ title, breadcrumb = [], paragraph }) => {
   return (
     <div className="page-header">
-      <h1>{title}</h1>
 
+    
+      <h1>{title}</h1>
       <div className="page-breadcrumb">
         <p>
           {breadcrumb.map((item, index) => {
@@ -15,7 +15,7 @@ const Heading = ({ title, breadcrumb = [], paragraph }) => {
             return (
               <span key={index}>
                 {item.pageLink && !isLast ? (
-                  <Link to={item.pageLink}>{item.subPage}</Link>
+                  <a href={item.pageLink}>{item.subPage}</a>
                 ) : (
                   <span className="current">{item.subPage}</span>
                 )}
@@ -32,4 +32,4 @@ const Heading = ({ title, breadcrumb = [], paragraph }) => {
   );
 };
 
-export default Heading;
+export default PageHeader;
